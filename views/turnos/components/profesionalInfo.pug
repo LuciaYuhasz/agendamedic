@@ -1,0 +1,10 @@
+//- profesional.pug
+.card.mb-4
+    .card-header
+        h5 Información del Profesional
+    .card-body
+        .mb-3
+            label(for="profesional-select", class="form-label") Profesional:
+            select(name="id_profesional", id="profesional-select", class="form-select", required)
+                option(value="", disabled, selected) Selecciona un profesional
+        input(type="hidden", name="id_profesional", id="id_profesional", required)

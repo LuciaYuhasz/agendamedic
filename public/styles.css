@@ -1,0 +1,129 @@
+.container {
+    max-width: 1650px;
+    /* Ancho máximo para el contenedor */
+    margin: auto;
+    /* Centrar el contenedor */
+    padding: 20px;
+    /* Espaciado interno en el contenedor */
+    background-color: #cbda76;
+    /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(125, 250, 177, 0.1);
+    /* Sombra para dar profundidad */
+}
+
+h1 {
+    color: #58183d;
+    /* Color azul para los encabezados que no tengo por ahora*/
+    margin-bottom: 20px;
+    /* Margen inferior para espacio */
+}
+
+.navbar {
+    margin-bottom: 100px;
+    /* Margen inferior para la navbar */
+}
+
+body {
+    background: linear-gradient(to right, #26421d, #9de696);
+    /* Gradiente de color */
+    margin: 0;
+    padding: 20px;
+}
+
+tr.inactivo {
+    color: blueviolet;
+    text-decoration: line-through;
+}
+
+.card {
+    background-color: #f9f9f9;
+    /* Color de fondo claro */
+    border: 1px solid #ccc;
+    /* Borde */
+}
+
+#paciente-input {
+    position: relative;
+    /* Asegura que el autocompletado se posicione correctamente */
+    z-index: 1;
+    /* Mantiene el campo de autocompletar en la parte superior */
+}
+
+.ui-autocomplete {
+    z-index: 9999;
+    /* Asegura que el menú de autocompletar esté sobre otros elementos */
+    background: white;
+    /* Fondo blanco para el autocompletar */
+    border: 1px solid #ccc;
+    /* Borde para distinguir el autocompletar */
+    max-height: 200px;
+    /* Altura máxima del menú de autocompletar */
+    overflow-y: auto;
+    /* Permite desplazamiento si hay demasiados resultados */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Cambia 'Arial' por la fuente que prefieras */
+}
+
+.form-label {
+    font-size: 1.2rem;
+    /* Aumenta el tamaño de la letra de las etiquetas */
+}
+
+.form-control {
+    font-size: 1rem;
+    /* Aumenta el tamaño de la letra en los campos de entrada */
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    /* Aumenta el espacio entre las tarjetas */
+}
+
+.horarios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.horario {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.horario:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+
+
+
+
+td {
+    padding: 15px;
+    /* Aumenta el espaciado interno en las celdas */
+}
+
+table {
+    font-size: 1.1rem;
+    /* Tamaño de letra general para la tabla */
+}
+
+.btn {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    /* Aumenta el tamaño ligeramente */
+    background-color: #0056b3;
+    /* Cambio de color */
+}
